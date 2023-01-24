@@ -4,9 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "dev": "vite dev -- --host",
     "build": "vite build",
     "preview": "vite preview"
+=======
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port $PORT"
+>>>>>>> parent of 0355b5f (Revert "Add vite support")
   },
   "devDependencies": {
     "vite": "^4.0.0"
