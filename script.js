@@ -1,5 +1,6 @@
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
+import sentences from './sentences.json'
 
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
@@ -93,7 +94,7 @@ const handleSubmit = async (e) => {
     Array.prototype.random = function () {
         return this[Math.floor((Math.random()*this.length))];
       }
-    var list = ["צא לי מהמשרד","מוכן להתערב על כליה","תזמן פיר אצל אליסה","תצא קצונה","יש לי שיחה מבוריס"]
+    var list = sentences.shoki
 
     messageDiv.innerHTML = list.random();
 }
