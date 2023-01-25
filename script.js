@@ -93,7 +93,7 @@ const handleSubmit = async (e) => {
     Array.prototype.random = function () {
         return this[Math.floor((Math.random()*this.length))];
       }
-    var list = ["צא לי מהמשרד","מוכן להתערב על כליה","תזמן פיר אצל אליסה"]
+    var list = ["צא לי מהמשרד","מוכן להתערב על כליה","תזמן פיר אצל אליסה","תצא קצונה","יש לי שיחה מבוריס"]
 
     messageDiv.innerHTML = list.random();
 }
