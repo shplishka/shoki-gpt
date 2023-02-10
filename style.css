@@ -124,6 +124,7 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  bottom: calc(10px + (100vh - 100%));
 }
 
 textarea {
