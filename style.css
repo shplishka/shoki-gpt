@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
+  direction: rtl;
   -ms-overflow-style: none;
   scrollbar-width: none;
 
@@ -53,7 +53,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #3e3f4b;
 }
 
 .chat {
@@ -116,6 +116,7 @@ body {
 }
 
 form {
+  direction: rtl;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
